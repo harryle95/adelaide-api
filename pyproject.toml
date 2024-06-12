@@ -1,0 +1,18 @@
+[project]
+name = "adelaide-api"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "hoangson", email = "lehoangsonsg@gmail.com"},
+]
+dependencies = [
+    "requests>=2.32.3",
+    "pandas>=2.2.2",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
