@@ -8,6 +8,10 @@ authors = [
 dependencies = [
     "requests>=2.32.3",
     "pandas>=2.2.2",
+    "sqlalchemy>=2.0.30",
+    "thefuzz>=0.22.1",
+    "pytest>=8.2.2",
+    "responses>=0.25.2",
 ]
 requires-python = "==3.12.*"
 readme = "README.md"
@@ -16,3 +20,7 @@ license = {text = "MIT"}
 
 [tool.pdm]
 distribution = false
+
+[tool.pdm.dev-dependencies]
+pytest = []
+responses = []
